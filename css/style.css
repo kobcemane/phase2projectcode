@@ -1,8 +1,36 @@
 /*h1 {*/
 /*    color: red;*/
 
+body {
+    background-color: #FFE2F4;
+}
+
 .centerme {
     text-align: center;
     margin: auto;
 }
+
+.whitetext {
+    color: white;
+}
+
+.greybackground {
+    background-color: #7F717A;
+}
+
+.jumbotron {
+    background-image: url("../images/museum.jpg");
+    background-position: center;
+    width: 100%;
+}
+
+.givemespace {
+    margin-top: 10px;
+}
+
+.smaller {
+    width: 100%;
+    height: 550px;
+}
+
 

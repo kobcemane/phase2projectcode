@@ -1,7 +1,8 @@
 /*h1 {*/
 /*    color: red;*/
 
-
-/*}*/
-
+.centerme {
+    text-align: center;
+    margin: auto;
+}
 

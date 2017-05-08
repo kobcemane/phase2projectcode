@@ -11,6 +11,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,7 +24,7 @@
 
   <body>
 
-   <nav class="navbar navbar-default greybackground">
+    <nav class="navbar navbar-default greybackground">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -51,7 +52,29 @@
       <!-- /.container-fluid -->
     </nav>
 
- <h1>contact page!!!</h1>
+    <div class="jumbotron whitetext contact">
+      <h1 class="centerme">Have Questions?</h1>
+      <p class="centerme whitetext"> <span class="greybackground">Contact Us Below!</span></p>
+    </div>
+
+    <form class="centerme">
+
+      <div>
+        <h1>First Name:</h1>
+        <input type="text" name="firstname">
+
+        <h1>Last Name:</h1>
+        <input type="text" name="lastname">
+
+        <h1>Question?</h1>
+        <input type="text" name="question">
+
+        <br>
+        
+        <button type="button" id="myStateButton" data-complete-text="THANKS!" class="btn btn-primary" autocomplete="off"> SUBMIT
+</button>
+
+    </form>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.2.0.min.js"></script>
@@ -59,6 +82,14 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+
+    <script>
+      $('#myStateButton').on('click', function() {
+        $(this).button('complete') // button text will be "finished!"
+      })
+    </script>
+
+
   </body>
 
 </html>

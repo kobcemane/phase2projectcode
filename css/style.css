@@ -1,4 +1,6 @@
 /*h1 {*/
+
+
 /*    color: red;*/
 
 body {
@@ -24,6 +26,20 @@ body {
     width: 100%;
 }
 
+.contact {
+    background-image: url("../images/questions.jpg");
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+}
+
+.gallery {
+    background-image: url("../images/galleryheader.jpg");
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+}
+
 .givemespace {
     margin-top: 10px;
 }
@@ -33,4 +49,6 @@ body {
     height: 550px;
 }
 
-
+button {
+    margin: 10px;
+}
